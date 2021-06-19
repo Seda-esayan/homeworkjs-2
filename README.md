@@ -57,3 +57,19 @@ var prev='25468',
          
 }
 undefined
+
+
+4. Given a positive number. Print it in reverse order.
+
+
+let n= +prompt(1253);
+let ID= n%10;
+let n1 =( n-ID) /10
+if (ID === 0 || ID ===n){
+console.log(n)
+}else{
+console.log(Number(String(ID)+String(n1)))
+console.log( '+${ID}${n1}' )
+}
+ 1352
+ +${ID}${n1}
